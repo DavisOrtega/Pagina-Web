@@ -1,0 +1,33 @@
+.news-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 100px;
+    margin: 10px 0;
+    font-size: 20px;
+    margin: 10px 0;
+
+    img {
+        width: 50%;
+        height: 120px;
+    }
+
+    h3 {
+
+        color: #fff;
+        display: inline-block;
+        font-weight: bold;
+    }
+
+    &:hover {
+        text-decoration: underline;
+
+    }
+
+}
+
+.links img {
+
+    margin-left: 340px;
+
+
+}

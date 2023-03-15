@@ -1,0 +1,35 @@
+.container-fluid {
+
+    font-size: 30px;
+    background-color: #000;
+
+}
+
+.navbar-brand {
+
+    width: 400px;
+    height: 160px;
+
+}
+
+
+.navbar-nav {
+
+    margin: auto;
+
+
+}
+
+.nav-item {
+
+    padding: 0 15px 0 15px;
+
+    a {
+        color: rgb(255, 255, 255);
+    }
+
+    &:hover {
+        color: yellow;
+    }
+
+}
