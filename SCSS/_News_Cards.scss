@@ -3,24 +3,36 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 100px;
     margin: 10px 0;
-    font-size: 20px;
-    margin: 10px 0;
+
+
+
+
+    .news-cards {
+        font-size: 20px;
+        margin: 10px 0;
+
+    }
 
     img {
         width: 50%;
         height: 120px;
+
     }
 
     h3 {
 
         color: #fff;
-        display: inline-block;
         font-weight: bold;
+        margin-top: 20px;
     }
 
     &:hover {
-        text-decoration: underline;
+        text-decoration: none;
 
+    }
+
+    p {
+        text-decoration: none;
     }
 
 }

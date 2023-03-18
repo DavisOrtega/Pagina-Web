@@ -1,11 +1,23 @@
-@use './Header';
 @use './Reset';
+
+@use './Header';
+
 @use './Body';
-@use './Footer';
-@use './Mediaquieri_Mobile';
+
+
 @use './Navboostrap';
+
+
 @use './News_Cards';
+
 @use './Page_Contacto';
+
 @use './Page_Nosotros';
+
 @use './Page_Noticias';
+
 @use './Page_Servicios';
+
+@use './Footer';
+
+@use './Mediaquieri_Mobile';
